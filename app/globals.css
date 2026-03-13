@@ -1,26 +1,127 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Colors */
+  --black: #0A0A0A;
+  --off-white: #F5F5F0;
+  --surface: #1A1A1A;
+  --border: #2E2E2E;
+  --accent: #00DC82;
+  --muted: #888888;
+
+  /* Typography */
+  --font-display: "Geist", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  /* Spacing Scale (8px base) */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 48px;
+  --space-6: 64px;
+  --space-7: 96px;
+  --space-8: 120px;
+  --space-9: 160px;
+
+  /* Layout */
+  --max-width: 1200px;
+  --section-gap: 160px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Light theme */
+[data-theme="light"] {
+  --background: var(--off-white);
+  --foreground: var(--black);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Dark theme (default) */
+[data-theme="dark"],
+:root {
+  --background: var(--black);
+  --foreground: var(--off-white);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Container */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-4);
+}
+
+/* Typography scale */
+.text-hero {
+  font-family: var(--font-display);
+  font-size: clamp(48px, 6vw, 72px);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+}
+
+.text-heading {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 3vw, 40px);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.text-body {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.text-small {
+  font-family: var(--font-body);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+/* Accent */
+.accent {
+  color: var(--accent);
+}
+
+/* Section spacing */
+section {
+  padding: var(--section-gap) 0;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
 }
