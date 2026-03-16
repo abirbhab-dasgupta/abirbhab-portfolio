@@ -3,6 +3,8 @@ import { Geist } from "next/font/google";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
+import { CommandPalette } from "@/components/CommandPalette";
 
 const geist = Geist({
   variable: "--font-display",
@@ -81,8 +83,9 @@ const jsonLd = {
     addressCountry: "IN",
   },
   sameAs: [
-    "https://github.com/yourusername",
-    "https://linkedin.com/in/yourusername",
+    "https://github.com/abirbhab-dasgupta",
+    "https://linkedin.com/in/abirbhab",
+    "https://twitter.com/Abirbhab_24",
   ],
 };
 
@@ -105,7 +108,10 @@ export default function RootLayout({
           defaultTheme="dark"
           enableSystem={false}
         >
-          {children}
+          <CommandPalette>
+            <Navbar />
+            {children}
+          </CommandPalette>
         </ThemeProvider>
       </body>
     </html>

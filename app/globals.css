@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+
+@theme {
+  --color-accent: #00DC82;
+  --color-surface: #1A1A1A;
+  --color-border: #2E2E2E;
+  --color-muted: #888888;
+  --color-black: #0A0A0A;
+  --color-off-white: #F5F5F0;
+}
+
 :root {
   /* Colors */
   --black: #0A0A0A;
@@ -103,10 +113,7 @@ body {
   color: var(--accent);
 }
 
-/* Section spacing */
-section {
-  padding: var(--section-gap) 0;
-}
+
 
 /* Scrollbar */
 ::-webkit-scrollbar {
