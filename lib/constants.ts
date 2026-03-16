@@ -8,7 +8,7 @@ export const PERSON = {
     university: "Adamas University",
     location: "Kolkata, India",
     url: "https://abirbhabdasgupta.vercel.app",
-    twitterHandle: "@Abirbhab_24",
+    twitterHandle: "Abirbhab_24",
     resumeUrl: "",
 }
 
