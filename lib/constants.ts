@@ -99,4 +99,11 @@ export const BLOG_POSTS = [
         date: "2025",
         readTime: "5 min read",
     },
+    {
+        title: "From Function Calling to MCP: Building Your First Standardized AI Agent",
+        description: "I broke my function calling agent trying to scale it. This is what I learned rebuilding it with MCP — and why the architecture difference matters more than I expected.",
+        url: "https://abirbhabdasgupta.hashnode.dev/from-function-calling-to-mcp-building-your-first-standardized-ai-agent",
+        date: "2026",
+        readTime: "19 min read",
+    },
 ]
