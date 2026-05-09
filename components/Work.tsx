@@ -6,9 +6,9 @@ import { PROJECTS } from "@/lib/constants";
 import { useIsMobile } from "@/lib/useIsMobile";
 
 const PROJECT_IMAGES: Record<string, string> = {
+    promptbuildr: "/project-promptbuildr.png",
     framixui: "/project-framixui.png",
     "auth-next": "/project-authnext.png",
-    "hyperflux-theme": "/project-hyperflux.png",
     "n8n-agents": "/project-n8n.png",
 };
 
