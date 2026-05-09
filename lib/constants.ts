@@ -31,6 +31,17 @@ export const TRUST_TOKENS = [
 
 export const PROJECTS = [
     {
+        title: "PromptBuildr",
+        problem: "Raw ideas fed directly into AI models produce weak, generic outputs",
+        solution: "Built a client-side tool that transforms any idea into a model-specific, optimized prompt",
+        decision: "Chose localStorage-only storage over a backend — keeps it 100% private and zero-latency with no auth overhead",
+        stack: ["Next.js", "TypeScript", "Gemini API"],
+        metrics: "6 prompt modes · 4 target models · Zero server storage · Prompt explainability",
+        github: "https://github.com/abirbhab-dasgupta/promptbuildr",
+        live: "https://promptbuildr.vercel.app",
+        slug: "promptbuildr",
+    },
+    {
         title: "FramixUI",
         problem: "Building consistent UI components from scratch wastes development hours",
         solution: "Built a reusable component library others could use",
@@ -52,17 +63,7 @@ export const PROJECTS = [
         live: "https://better-authnext.vercel.app",
         slug: "auth-next",
     },
-    {
-        title: "HyperFlux Theme",
-        problem: "Most VS Code dark themes sacrifice readability for aesthetics",
-        solution: "Built a custom VS Code theme focused on syntax clarity and low eye strain",
-        decision: "Chose a muted neon palette over pure brights to reduce contrast fatigue on long sessions",
-        stack: ["VS Code Extension API", "JSON", "Color Theory"],
-        metrics: "",
-        github: "https://github.com/abirbhab-dasgupta/hyperflux-theme",
-        live: "",
-        slug: "hyperflux-theme",
-    },
+
     {
         title: "n8n AI Agents",
         problem: "Repetitive personal tasks like expense tracking and email filtering waste hours every week",
