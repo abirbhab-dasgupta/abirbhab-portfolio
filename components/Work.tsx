@@ -4,8 +4,10 @@ import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { PROJECTS } from "@/lib/constants";
 import { useIsMobile } from "@/lib/useIsMobile";
+import Image from "next/image";
 
 const PROJECT_IMAGES: Record<string, string> = {
+    studiosynq: "/project-studiosynq.png",
     promptbuildr: "/project-promptbuildr.png",
     framixui: "/project-framixui.png",
     "auth-next": "/project-authnext.png",
@@ -47,13 +49,14 @@ function ProjectCard({ project, index }: { project: (typeof PROJECTS)[0]; index:
                     background: "#111111",
                 }}
             >
-                <img
-                    src={imageSrc}
-                    alt={project.title}
-                    style={{ width: "100%", height: "100%", objectFit: "cover", display: "block", transition: "transform 0.6s ease" }}
-                    onMouseEnter={(e) => { e.currentTarget.style.transform = "scale(1.03)"; }}
-                    onMouseLeave={(e) => { e.currentTarget.style.transform = "scale(1)"; }}
-                />
+                 <Image
+        src={imageSrc}
+        alt={project.title}
+        fill
+        style={{ objectFit: "cover", display: "block", transition: "transform 0.6s ease" }}
+        onMouseEnter={(e) => { e.currentTarget.style.transform = "scale(1.03)"; }}
+        onMouseLeave={(e) => { e.currentTarget.style.transform = "scale(1)"; }}
+    />
                 <div
                     style={{
                         position: "absolute", top: "16px", left: "16px",
