@@ -95,8 +95,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning> 
       <head>
+        <meta name="google-site-verification" content="zl3oKtcRVkWG1DqYD1Bd5eeKZN5-z1zliYqWgUiH02k" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
