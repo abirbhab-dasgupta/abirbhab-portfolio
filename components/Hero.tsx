@@ -191,7 +191,7 @@ export default function Hero() {
                     </span>
                 </motion.div>
 
-                <div style={{ marginBottom: "1.5rem", lineHeight: 0.95 }}>
+                <h1 style={{ marginBottom: "1.5rem", lineHeight: 0.95, fontSize: "inherit", fontWeight: "inherit" }}>
                     <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}>
                         <span style={{ display: "block", fontSize: isMobile ? "clamp(52px,15vw,72px)" : "clamp(52px,8vw,96px)", fontWeight: 700, color: "var(--foreground)", letterSpacing: "-0.04em", fontFamily: "var(--font-display)" }}>
                             Abirbhab
@@ -202,7 +202,7 @@ export default function Hero() {
                             Dasgupta
                         </span>
                     </motion.div>
-                </div>
+                </h1>
 
                 <motion.div
                     initial={{ scaleX: 0 }} animate={{ scaleX: 1 }}
