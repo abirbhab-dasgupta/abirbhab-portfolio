@@ -53,6 +53,28 @@ export const PROJECTS = [
     slug: "studiosynq",
   },
   {
+    title: "WorkForcee",
+    problem:
+      "Small teams track attendance, leave, and payroll across scattered spreadsheets and chat threads — no single source of truth, no audit trail",
+    solution:
+      "Built a role-based HR management system with live attendance status, one-click leave approvals, and auto-computed salary breakdowns in a single dashboard",
+    decision:
+      "Chose Better Auth's admin plugin (ban/unban, setUserPassword) over building custom offboarding and password-reset logic — reused built-in session revocation instead of hand-rolling account lifecycle management",
+    stack: [
+      "Next.js",
+      "TypeScript",
+      "Better Auth",
+      "Drizzle ORM",
+      "PostgreSQL",
+      "Tailwind CSS",
+    ],
+    metrics:
+      "Role-based visibility (admin/employee) · Auto-computed payroll (Basic/HRA/PF/tax) · Live check-in/out status · Leave balance tracking · Admin-mediated password recovery",
+    github: "https://github.com/abirbhab-dasgupta/human-resource-managment-system",
+    live: "https://workforcee.vercel.app",
+    slug: "workforcee",
+  },
+  {
     title: "PromptBuildr",
     problem:
       "Raw ideas fed directly into AI models produce weak, generic outputs",

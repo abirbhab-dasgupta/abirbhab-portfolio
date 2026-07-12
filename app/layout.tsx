@@ -19,13 +19,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Abirbhab Dasgupta — Frontend Engineer",
+  title: "Abirbhab Dasgupta — Software Developer",
   description:
-    "Abirbhab Dasgupta is a Frontend Engineer and B.Tech CSE student at Adamas University, Kolkata. Building with Next.js, TypeScript, and React.",
+    "Abirbhab Dasgupta is a Software Developer and B.Tech CSE student at Adamas University, Kolkata. Building with Next.js, TypeScript, and React.",
   keywords: [
     "Abirbhab Dasgupta",
     "Abirbhab",
-    "Frontend Engineer",
+    "Software Developer",
     "Next.js Developer",
     "Adamas University",
     "Kolkata Developer",
@@ -43,16 +43,16 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://abirbhabdasgupta.vercel.app",
-    title: "Abirbhab Dasgupta — Frontend Engineer",
+    title: "Abirbhab Dasgupta — Software Developer",
     description:
-      "Frontend Engineer building with Next.js and TypeScript. B.Tech CSE at Adamas University.",
+      "Software Developer building with Next.js and TypeScript. B.Tech CSE at Adamas University.",
     siteName: "Abirbhab Dasgupta",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Abirbhab Dasgupta — Frontend Engineer",
+    title: "Abirbhab Dasgupta — Software Developer",
     description:
-      "Frontend Engineer building with Next.js and TypeScript. B.Tech CSE at Adamas University.",
+      "Software Developer building with Next.js and TypeScript. B.Tech CSE at Adamas University.",
     creator: "@Abirbhab_24",
   },
   robots: {
@@ -71,7 +71,7 @@ const jsonLd = {
   "@type": "Person",
   name: "Abirbhab Dasgupta",
   url: "https://abirbhabdasgupta.vercel.app",
-  jobTitle: "Frontend Engineer",
+  jobTitle: "Software Developer",
   alumniOf: {
     "@type": "CollegeOrUniversity",
     name: "Adamas University",
@@ -95,7 +95,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning> 
+    <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="google-site-verification" content="zl3oKtcRVkWG1DqYD1Bd5eeKZN5-z1zliYqWgUiH02k" />
         <script

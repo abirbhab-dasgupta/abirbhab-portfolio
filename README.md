@@ -1,6 +1,6 @@
 # Abirbhab Dasgupta — Portfolio
 
-Personal portfolio website for **Abirbhab Dasgupta**, a Frontend Engineer and B.Tech CSE student at Adamas University, Kolkata.
+Personal portfolio website for **Abirbhab Dasgupta**, a Software Developer and B.Tech CSE student at Adamas University, Kolkata.
 
 🔗 **Live:** [abirbhabdasgupta.vercel.app](https://abirbhabdasgupta.vercel.app)
 

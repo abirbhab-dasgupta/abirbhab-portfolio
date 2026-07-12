@@ -7,7 +7,7 @@ import { PERSON } from "@/lib/constants";
 type ContributionDay = { date: string; count: number };
 
 const codeLines = [
-    "const engineer = new Frontend();",
+    "const developer = new Software();",
     "await engineer.build('AUth Next');",
     "git commit -m 'ship it'",
     "npm run deploy --prod",

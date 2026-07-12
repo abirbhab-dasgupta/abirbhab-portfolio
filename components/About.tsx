@@ -68,7 +68,7 @@ export default function About() {
                         </p>
                         <p style={{ fontSize: isMobile ? "15px" : "16px", color: "#888888", fontFamily: "var(--font-body)", lineHeight: 1.8, marginBottom: "1.5rem" }}>
                             My interest sits at the intersection of{" "}
-                            <span style={{ color: "#F5F5F0" }}>frontend engineering</span>,{" "}
+                            <span style={{ color: "#F5F5F0" }}>Software Developement</span>,{" "}
                             <span style={{ color: "#00DC82" }}>AI automation</span>, and product thinking. I've built UI libraries, production auth systems, and AI agents that automate real workflows — not just tutorial clones.
                         </p>
                         <p style={{ fontSize: isMobile ? "15px" : "16px", color: "#888888", fontFamily: "var(--font-body)", lineHeight: 1.8 }}>
