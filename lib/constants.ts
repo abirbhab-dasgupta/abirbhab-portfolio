@@ -70,7 +70,7 @@ export const PROJECTS = [
     ],
     metrics:
       "Role-based visibility (admin/employee) · Auto-computed payroll (Basic/HRA/PF/tax) · Live check-in/out status · Leave balance tracking · Admin-mediated password recovery",
-    github: "https://github.com/abirbhab-dasgupta/human-resource-managment-system",
+    github: "https://github.com/abirbhab-dasgupta/workforcee",
     live: "https://workforcee.vercel.app",
     slug: "workforcee",
   },
@@ -170,11 +170,11 @@ export const TIMELINE = [
 
 export const BLOG_POSTS = [
   {
-    title: "Invoice Generator with AI",
+    title: "Loop Engineering vs. Prompt Engineering: Is This Actually a New Skill?",
     description:
-      "Building an AI-powered invoice generator — the problem, the approach, and what I learned.",
-    url: "https://abirbhabdasgupta.hashnode.dev/invoice-generator-with-ai",
-    date: "2025",
+      "Loop engineering is the new buzzword in AI development — but is it a real shift or just prompt engineering with better branding? An honest breakdown.",
+    url: "https://abirbhabdasgupta.hashnode.dev/loop-engineering-vs-prompt-engineering-is-this-actually-a-new-skill",
+    date: "2026",
     readTime: "5 min read",
   },
   {
@@ -186,4 +186,13 @@ export const BLOG_POSTS = [
     date: "2026",
     readTime: "19 min read",
   },
+  {
+    title: "Invoice Generator with AI",
+    description:
+      "Building an AI-powered invoice generator — the problem, the approach, and what I learned.",
+    url: "https://abirbhabdasgupta.hashnode.dev/invoice-generator-with-ai",
+    date: "2025",
+    readTime: "5 min read",
+  },
+
 ];
